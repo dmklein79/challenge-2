@@ -17,8 +17,10 @@ Created with MIT licensure
 ## Github URL
 https://github.com/dmklein79/challenge-2
 
-## Portfolio URL
-
+## Portfolio URL (on Github)
+https://dmklein79.github.io/challenge-2/
 
 ## Preview Screenshot
 ![alt text](./_Users_davidklein_bootcamp_week2challenge_challenge-2_index.html.png "screenshot snippet")
+
+## Thank you in advance for your feedback!
