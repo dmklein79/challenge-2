@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Note: As a work in progress, the colors will come last -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Portfolio</title>
+</head>
+<!-- HTML structured into three sections: header (and nav bar), banner image, and main section of content -->
+<body style="background-color:darkblue">
+    <header>
+        <div class="top-left">David Klein, MSW</div>
+        <nav class="topnav-right">
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+            <!-- links to a download as opposed to opening doc in web app? -->
+            <a href="./David Klein resume.docx">Resume</a>
+        </nav>
+    </header>
+<!-- images subject to change a lot and should be seen as placeholders -->
+    <img src="./pexels-fwstudio-132199.jpg" id="banner-image">
+      <div>
+        <div class="subheader">🐶-dad Psychotherapist Becomes Software Developer (right 🧠 -> left 🧠)<br>
+        And judging by this creation, he is probably destined for back-end work.
+        </div>
+      </div>
+    </img>
+
+    <main>
+      <!-- Main section is being wrapped as a grid, as trying to do flexboxes without the grid became confusing
+            However, this is where I ran into the biggest difficulties in attempting to position everything as in
+            the mockup, and would benefit from feedback in this regard 
+            It is almost as if I am getting lost in all the containers and what points to what -->
+        <div class="grid-container">
+          <!-- these are the boxes on the left of the grid -->
+          <div class="grid-item-heading"> <p id="about">About Me</p></div>
+          <!-- So grid-item is then the grid-item is the righthand column (which can become it's own flex-boxes?) -->
+          <div class="grid-item">After studying Computer Science and graduating from 
+            college with a BS in Mathematics, my path took a bit of a turn into the field of social work and mental health,
+            where I have worked for about 20 years, mostly as a psychotherapist. But through the pandemic (and lots of my own therapy),
+            I have realized that this path is no longer suitable, so I am venturing (full circle) 
+            into Coding bootcamp and returning to my left-brained roots, where there are 
+            answers and truly solvable problems.<br>
+            <i>And as I continue to learn more about myself (and computer programming), I will update this portfolio.</i>
+          </div>
+          <div class="grid-item-heading"><p id="work">Work</p></div>  
+          <!-- where is becomes its own flexbox, of three sample image links -->
+          <div class="grid-item">
+            <!-- where I get more confused...do I need this clas sgird-work-sub? -->
+            <div class="grid-work-subcontainer">
+              <div class="row">
+                <div class="column">
+                  <a href="#linktofirstproject">
+                    <img src="./jackson-graham-8O3jBhAdRv4-unsplash.jpg" alt="computer" title="computer">
+                    <div class="text-block">
+                      Work Sample #1
+                    </div>
+                  </a>
+                </div>
+                <div class="column">
+                  <a href="#linktosecondproject">
+                    <img src="./viktor-mindt-hxtJnbzmXgM-unsplash.jpg" alt="waves" title="waves">
+                    <div class="text-block">
+                      Work Sample #2
+                    </div>
+                  </a>
+                </div>
+                <div class="column">
+                  <a href="#linktothirdproject">
+                    <img src="./viktor-mindt-hxtJnbzmXgM-unsplash.jpg" alt="waves" title="waves">
+                    <div class="text-block">
+                      Work Sample #3
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <!-- Third heading, where the spacing of the links within their flexboxes is left/top, when I'm aiming for middle -->
+          <div class="grid-item-heading"><p id="contact">Contact Me</p></div>
+          <div class="grid-contact-subcontainer">
+            <div class="grid-item-contact">
+              <a href="mailto:davidmklein79@gmail.com">davidmklein79@gmail.com</a>
+            </div>
+            <div class="grid-item-contact">
+              <a href="https://github.com/dmklein79">My Github Repo</a>
+            </div>
+            <div class="grid-item-contact">
+              <a href="https://linkedin.com/davidkleinlcsw">My LinkedIn</a>
+            </div>  
+          </div>   
+        </div>
+    </main>
+
+</body>
+<footer>
+  Created by David Klein, 2022. But this is just a draft.
+</footer>
+</html>
