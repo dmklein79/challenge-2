@@ -11,7 +11,14 @@ The HTML is more commented (with questions, mainly) because it was a little easi
 ## Motivation
 Because of my background, I think it is important to show you my completed work in one place. I hope that as I continue to develop, that my interests and skills are displayed on this page.
 
+## Licensing
+Created with MIT licensure
+
+## Github URL
+https://github.com/dmklein79/challenge-2
+
 ## Portfolio URL
+
 
 ## Preview Screenshot
 ![alt text](./_Users_davidklein_bootcamp_week2challenge_challenge-2_index.html.png "screenshot snippet")
